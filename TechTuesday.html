@@ -16,11 +16,15 @@
       font-size:300%;
       margin:1%;
     }
-    a {
+    a.one{
+        color:hotpink;
+        text-decoration:none;
+        font-style:italic;
+    }
+    /*formatting for nav bar */
+    a.two {
         color:white;
     }
-    
-    /*formatting for nav bar */
     ul{
       list-style-type:None;
       margin:1%;
@@ -33,7 +37,7 @@
       display:inline-block;
       background-color:white;
     }
-    a{
+    a.two{
       display:block;
       padding:10px;
       text-decoration:None;
@@ -41,11 +45,11 @@
       color:rgb(110,56,49);
       
     }
-    a:hover{
+    a.two:hover{
       background-color:rgb(139, 218, 216);
       color:rgb(7, 78, 77);
     }
-    a:active{
+    a.two:active{
       background-color:rgb(122,208,206);
       color:rgb(7, 78, 77);
     }
@@ -53,18 +57,22 @@
 
 <body>
 
+<!-- Nav Bar -->
 <ul>
-  <li><a href = "index.html">Home</a> </li>
-  <li><a href = 'journal.html'>Journal</a></li>
-  <li><a href = 'TechTuesday.html'>Tech Tuesday</a></li>
-  <li><a href = 'Bookmarks.html'>Bookmarks</a></li>
+  <li><a class="two" href = "index.html">Home</a> </li>
+  <li><a class="two" href = 'journal.html'>Journal</a></li>
+  <li><a class="two" href = 'TechTuesday.html'>Tech Tuesday</a></li>
+  <li><a class="two" href = 'Bookmarks.html'>Bookmarks</a></li>
 </ul>
 
+<!--Heading-->
 <h1>Tech Tuesdays</h1>
-</body>
+
 </html>
     <p>
-    <a href = "https://docs.google.com/document/d/1bPqFQgYco5M16h4XiUEjZRbOBHUhNmGnJcuQHI2lACY/edit">Google Doc Link</a>
+    <a class='one' href = "https://docs.google.com/document/d/1bPqFQgYco5M16h4XiUEjZRbOBHUhNmGnJcuQHI2lACY/edit">Google Doc Link</a>
     </p>
+
+    
 </body>
 </html>
