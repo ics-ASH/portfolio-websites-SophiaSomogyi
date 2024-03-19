@@ -96,6 +96,18 @@
         padding-top:2px;
         padding-bottom:50px;
     }
+    img{
+        width:40%;
+        float:right;
+        margin:1.5%;   
+    }
+    section.clearfix::after{
+        content:"";
+        clear:both;
+        display:table;
+    }
+
+
     h2{
         color:rgb(92, 141, 187);
         font-family:'Courier New', Courier, monospace;
@@ -122,13 +134,8 @@
         margin-top:1%;
         text-align:center;
     }
-    img{
-        width:200px;
-        float:right;
-        margin:1.5%;
-        
-        
-    }
+ 
+
     
 
 </style>
@@ -147,9 +154,10 @@
 <h1>Tech Tuesdays</h1>
 
 <!--Raspebrry Pis-->
-<section>
+<section class = 'clearfix'>
     <h2>February 20 2024</h2>
     <h3>Raspberry Pis</h3>
+    <img src = "https://miro.medium.com/v2/resize:fit:1144/0*IiQMM0O2XENasVbb"></src>     
     <p>Raspberry Pis were created in the UK in 2012. Though computers are widely used devices, in many developing countries they are difficult to 
         access, and this is where the raspberry pie comes in. They are a low costing single computer board around the size of a credit card, 
         created to be widely accessible while still being affordable and useful. Raspberry Pis are mini-computers that are able to exchange and 
@@ -157,7 +165,6 @@
          features similarto a motherboard while taking out things that are not necessary. such as its internal storage. To using raspberry pi requires
          an SD card containing an operating system, that is needed for the computer to work. Raspberry Pis are compatible with the 
          Linux OS, which reduces the amount of storage required. </p>
-     <img src = "https://miro.medium.com/v2/resize:fit:1144/0*IiQMM0O2XENasVbb"></src>     
     <p>Raspberry Pis have many features that make them popular and easy to use. These include: CPU, HDMI and USB ports, GPU, Memory, an 
         Ethernet port, an SD card, and GPIO pins. The CPU or Central Processing Unit acts as the main base of operations for the Raspberry pi and 
         performes actions using logical and mathematical operations. An HDMI (High Definition Multimedia Interface) port is useful because it
