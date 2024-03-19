@@ -5,12 +5,12 @@
 </head>
 <style>
     body{
-      background-color:rgb(245,210,212);
+      background-color:rgb(255, 239, 194);
       
     } 
     h1{
-      color:rgb(131, 27, 58);
-      background-color:rgb(247, 140, 179);
+      background-color:rgb(245,212,87);
+      color:rgb(155, 92, 11);
       padding:2%;
       text-align:center;
       font-size:250%;
@@ -40,23 +40,52 @@
       color:rgb(110,56,49);
       
     }
-    a:hover{
+    /*LINK COLORS*/
+    /*Home*/
+    a.one:hover{
+      background-color:rgb(247, 140, 179);
+      color:rgb(131, 27, 58);
+    }
+    a.one:active{
+      background-color:rgb(231, 106, 152);
+      color:rgb(131, 27, 58);
+    }
+     /*Journal*/
+    a.three:hover{
+      background-color:rgb(196, 106, 204);
+      color:rgb(70, 7, 78);
+    }
+    a.three:active{
+      background-color:rgb(185, 94, 194);
+      color:rgb(70, 7, 78);
+    }
+    /*TT*/
+    a.four:hover{
       background-color:rgb(139, 218, 216);
       color:rgb(7, 78, 77);
     }
-    a:active{
-      background-color:rgb(122,208,206);
+    a.four:active{
+      background-color:rgb(94, 201, 197);
       color:rgb(7, 78, 77);
+    }
+    /*About*/
+    a.five:hover{
+      background-color:rgb(132, 147, 231);
+      color:rgb(7, 8, 78);
+    }
+    a.five:active{
+      background-color:rgb(99, 114, 197);
+      color:rgb(7, 8, 78);
     }
 </style>
 
 <body>
 
 <ul>
-  <li><a href = "index.html">Home</a> </li>
-  <li><a href = 'journal.html'>Journal</a></li>
-  <li><a href = 'TechTuesday.html'>Tech Tuesday</a></li>
-  <li><a href = 'About.html'>About</a></li>
+  <li><a class = 'one' href = "index.html">Home</a> </li>
+  <li><a class = 'three' href = 'journal.html'>Journal</a></li>
+  <li><a class = 'four' href = 'TechTuesday.html'>Tech Tuesday</a></li>
+  <li><a class = 'five' href = 'About.html'>About</a></li>
 </ul>
 
 <h1>Bookmarks</h1>
