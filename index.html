@@ -30,21 +30,51 @@
       display:inline-block;
       background-color:white;
     }
+    
     a{
       display:block;
       padding:10px;
       text-decoration:None;
       font-size:125%;
       color:rgb(110,56,49);
-      
     }
-    a:hover{
+
+    /*LINK COLORS*/
+     /*Bookmarks*/
+    a.two:hover{
+      background-color:rgb(245,212,87);
+      color:rgb(119, 72, 11);
+    }
+    a.two:active{
+      background-color:rgb(221, 186, 57);
+      color:rgb(119, 72, 11);
+    }
+    /*Journal*/
+    a.three:hover{
+      background-color:rgb(196, 106, 204);
+      color:rgb(70, 7, 78);
+    }
+    a.three:active{
+      background-color:rgb(185, 94, 194);
+      color:rgb(70, 7, 78);
+    }
+    /*TT*/
+    a.four:hover{
       background-color:rgb(139, 218, 216);
       color:rgb(7, 78, 77);
     }
-    a:active{
-      background-color:rgb(122,208,206);
+    a.four:active{
+      background-color:rgb(94, 201, 197);
       color:rgb(7, 78, 77);
+    }
+    /*About*/
+    a.five:hover{
+      background-color:rgb(127, 230, 123);
+      color:rgb(9, 78, 7);
+    }
+    a.five:active{
+      background-color:rgb(81, 207, 77);
+      color:rgb(9, 78, 7);
     }
 
   </style>
@@ -53,10 +83,11 @@
     <h1>Sophia's Website</h1>
     </p>
     <ul>
-      <li><a href = "About.html">About</a> </li>
-      <li><a href = 'journal.html'>Journal</a></li>
-      <li><a href = 'TechTuesday.html'>Tech Tuesday</a></li>
-      <li><a href = 'Bookmarks.html'>Bookmarks</a></li>
+      <li><a class="two" href = 'Bookmarks.html'>Bookmarks</a></li>
+      <li><a class="three" href = 'Journal.html'>Journal</a></li>
+      <li><a class="four" href = 'TechTuesday.html'>Tech Tuesday</a></li>
+      <li><a class="five" href = "About.html">About</a> </li>
+
     </ul>
 
     <br>
