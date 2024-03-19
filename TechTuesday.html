@@ -23,7 +23,12 @@
         color:rgb(92, 141, 187);
         text-decoration:none;
         font-style:italic;
-        font-size:90%;
+        font-size:100%;
+        font-family:'Courier New', Courier, monospace;
+        padding-left:5%
+    }
+    a.six:hover{
+      text-decoration:underline;
     }
     /*NAV BAR */
     a {
@@ -96,6 +101,7 @@
         padding-top:2px;
         padding-bottom:50px;
     }
+    /*img stuff??*/
     img{
         width:40%;
         float:right;
@@ -106,16 +112,29 @@
         clear:both;
         display:table;
     }
-
-
-    h2{
+    
+    table,th{
         color:rgb(92, 141, 187);
         font-family:'Courier New', Courier, monospace;
-        font-size:105%;
-        text-align:right;
-        padding-right:5%;
+        font-size:100%;
+        font-weight:5;
     }
-    h3{
+    table{
+      width:100%;
+      font-style:italic;
+     
+    }
+    th.right{
+      text-align:right;
+      padding-right: 5%;
+      padding-top:2%;
+    }
+    th.left{
+      text-align:left;
+      padding-left:5%;
+      padding-top:2%;
+    }
+      h3{
         color:rgb(0, 67, 121);
         font-size:140%;
         font-family:'Helvetica'; 
@@ -123,10 +142,11 @@
     }
     p {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
-        padding-left:50px;
-        padding-right:50px;
+        padding-left:5%;
+        padding-right:5%;
         text-indent:50px;
         color:rgb(12, 46, 59);
+        text-align:justify;
     }
     footer{
         background-color:rgb(8, 39, 85);
@@ -135,8 +155,6 @@
         text-align:center;
     }
  
-
-    
 
 </style>
 
@@ -155,7 +173,10 @@
 
 <!--Raspebrry Pis-->
 <section class = 'clearfix'>
-    <h2>February 20 2024</h2>
+    <table>
+      <th class="left">Topic:Computers</th>
+      <th class="right">February 20 2024</th>
+    </table>
     <h3>Raspberry Pis</h3>
     <p>Raspberry Pis were created in the UK in 2012. Though computers are widely used devices, in many developing countries they are difficult to 
         access, and this is where the raspberry pie comes in. They are a low costing single computer board around the size of a credit card, 
@@ -174,13 +195,17 @@
           can be used to interact with other electronic circuits and can be programmed to read and control electronic signals from other boards. 
           Finally, it uses different color LEDs to show different things, like if it is powered on or to monitor Ethernet connection. 
     </p>
+    <a class="six" href = "https://www.spiceworks.com/tech/networking/articles/what-is-raspberry-pi/">Article Source: Spiceworks.com</a>
    
 </section>
 <p></p>
 
 <!--Article 2 -->
 <section>
-    <h2>February 27 2024</h2>
+    <table>
+      <th class="left">Topic:Hardware</th>
+      <th class="right">February 27 2024</th>
+    </table>
     <h3>Motherboard</h3>
     <p>A motherboard is a piece of internal hardware. They distribute electricity and control communication between the cpu and ram. There are many types 
         of motherboards that are each compatible with specific computers each depending on the size, processors and memory whereas they can all work with 
