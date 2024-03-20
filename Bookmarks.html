@@ -11,7 +11,7 @@
       
     } 
     h1{
-      background-color:rgb(245,212,87);
+      background-color:rgb(255, 212, 55);
       color:rgb(155, 92, 11);
       padding:2%;
       text-align:center;
@@ -19,8 +19,6 @@
       margin:1%;
       border-radius:10px;
       text-shadow:0px 3px 3px rgba(185, 156, 76, 0.5);
-
-
     }
 
     /*NAV BAR */
@@ -81,6 +79,47 @@
       background-color:rgb(99, 114, 197);
       color:rgb(7, 8, 78);
     }
+    /*TABLE*/
+    table,td,th{
+      border-bottom:10px solid rgb(255, 239, 194);
+      text-align:left;
+
+    }
+    table{
+      width:90%;
+      border-collapse:collapse;
+      margin:5%;
+      
+    }
+    th{
+      padding:1%;  
+      background-color:rgb(255, 229, 82);
+      width:50%;
+      font-family:'Helvetica'; 
+
+      
+    }
+    th:hover{
+      background-color:rgb(252, 255, 96);
+      font-size:130%;
+   }
+    td{
+      background-color: rgb(119, 49, 9);
+      color:rgb(255, 241, 159);
+      border-left:5px solid rgb(255,239,194);
+      padding:3%;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+
+      
+    }
+    a.six{
+      color:rgb(161, 68, 40);
+      text-align:center;
+    }
+    a.six:hover{
+      color:rgb(161, 68, 6);
+    }
+   
 </style>
 
 <body>
@@ -93,5 +132,18 @@
 </ul>
 
 <h1>Bookmarks</h1>
+
+<table>
+  <tr>
+      <th><a class='six' href = 'https://www.w3schools.com/' target = '_blank'>W3Schools</a></th>
+      <td>Website with lessons on different coding languages, including CSS and HTML.</td>
+  </tr>
+  <tr>
+      <th><a class='six' href = 'https://www.typingclub.com/' target = '_blank'>Typing Club</a></th>
+      <td>Website for teaching and practicing proper typing.</td>
+  </tr>
+  
+</table>
+
 </body>
 </html>
