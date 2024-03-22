@@ -80,49 +80,74 @@
       color:rgb(7, 8, 78);
     }
     /*TABLE*/
-    table,td,th{
-      border-bottom:10px solid rgb(255, 249, 194);
-
-    }
-    table{
+    table,th{
       width:90%;
-      border-collapse:collapse;
-      margin:5%;
-
+      margin:auto;
       
     }
-    tr{
-      opacity:80%;
+
+    table{
+      border-collapse:collapse;
+      
     }
+   
     th{
-      padding:2%;  
       background-color:rgb(255, 229, 82);
       width:30%;
       font-family:'Helvetica'; 
+      border: 15px solid rgb(255, 249, 194);
+      border-bottom:0px;
+      margin:5%;
+      padding:0%;
+      height:189px;
+      opacity:70%;
+
+
+      
     }
     th:hover{
       background-color:rgb(255, 209, 56);
       font-size:110%;
-    
+      opacity:100%;
+      text-shadow:0px 2px 2px rgba(185, 156, 76, 0.5);
+
+
    }
-    td{
+   th:active{
+   }
+
+    
+    p{
       background-color: rgb(119, 49, 9);
       color:rgb(255, 241, 159);
-      padding:3%;
+      padding:5%;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+      height:30%;
+      font-weight: 100;
+      font-size:80%;
+      text-align:center;
+      margin:0;
 
-      
-    }
-    tr:hover{
-      opacity: 100%;
+
     }
 
     a.six{
       color:rgb(161, 68, 40);
       text-align:center;
+      padding:5%;
+      vertical-align:bottom;
+      margin:5%;
+      font-size:160%;
+      height:auto;
     }
     a.six:hover{
       color:rgb(161, 68, 6);
+      text-decoration:underline;
+
+    }
+    a.six:active{
+      color:rgb(145, 58, 0);
+
     }
    
 </style>
@@ -140,20 +165,21 @@
 
 <table>
   <tr>
-      <th><a class='six' href = 'https://www.w3schools.com/' target = '_blank'>W3Schools</a></th>
-      <td>Website with lessons on different coding languages, including CSS and HTML.</td>
+    <th>
+      <a class='six' href = 'https://www.w3schools.com/' target = '_blank'>W3Schools</a>
+      <p>Website with lessons on different coding languages, including CSS and HTML.</p>
+    </th>
+    <th>
+      <a class='six' href = 'https://www.typingclub.com/' target = '_blank'>Typing Club</a>
+      <p>Website for teaching and practicing proper typing.</p>
+    </th>
+    <th >
+      <a class = 'six' href = 'https://www.khanacademy.org/' target = '_blank'>Khan Academy</a>
+      <p>Website for learning coding concepts through lessons and quizzes.</p>
+    </th>
   </tr>
-  <tr>
-      <th><a class='six' href = 'https://www.typingclub.com/' target = '_blank'>Typing Club</a></th>
-      <td>Website for teaching and practicing proper typing.</td>
-  </tr>
-  <tr>
-    <th><a class = 'six' href = 'https://www.khanacademy.org/' target = '_blank'>Khan Academy</a></th>
-    <td> Website for learning coding concepts through lessons and quizzes. <br><i>*Belived by some to be named after the Startrek movie: The Rise of Khan</i></td></td>
-  </tr>
-
+  
 </table>
-
 </body>
 </html>
 
