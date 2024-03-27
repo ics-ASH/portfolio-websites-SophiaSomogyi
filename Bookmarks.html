@@ -93,18 +93,20 @@
     table{
       border-collapse:collapse;
     }
+    table:hover{
+      box-shadow:0px 1px 10px rgba(85, 61, 9, 0.3);
+    }
     th{
       background-color:rgb(255, 228, 75);
       width:30%;
       font-family:'Helvetica'; 
       border:5px solid rgb(255, 239, 167);
       padding:0%;
-      opacity:70%;
+      opacity:80%;
       vertical-align:bottom;
-
     }
     tr{
-      height:250px;
+      height:220px;
     }
     
     th:hover{
@@ -113,7 +115,6 @@
       text-align: center;
       vertical-align:bottom;
       font-size: 115%;
-
     }
     th.two{
       background-color: rgb(253, 182, 100);
@@ -121,14 +122,15 @@
     p{
       background-color: rgb(119, 49, 9);
       color:rgb(255, 241, 159);
-      padding:5%;
-      padding-bottom:0;
+      padding:4%;
+      padding-bottom:0%;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
-      height:70px;
+      height:60px;
       font-weight:100;
       font-size:70%;
-      text-align:justify;
+      text-align:center;
       margin:0;
+      font-variant-caps:normal;
     }
     p.two{
       color:rgb(241, 210, 168);
@@ -139,18 +141,26 @@
     a.six{
       color:rgb(161, 68, 40);
       text-align:center;
-      padding:5%;
-      vertical-align:bottom;
       margin:5%;
-      font-size:160%;
-      height:auto;
+      margin-bottom:10%;
+      font-size:165%;
+      
     }
     a.six:hover{
       color:rgb(161, 68, 6);
       text-decoration:underline;
+
     }
     a.six:active{
-      color:rgba(255, 235, 192, 0.911);
+      color:rgb(201, 93, 60);
+    }
+    h2{
+      text-align: center;
+      font-family:'Helvetica', 'Lucida Sans Unicode', Arial, sans-serif;
+      padding:0.5%;
+      margin:0%;
+      color:rgb(161, 68, 40);
+      font-size:150%;
     }
    
 </style>
@@ -165,12 +175,12 @@
 </ul>
 
 <h1>Bookmarks</h1>
-
+<h2>General Info</h2>
 <table>
   <tr>
     <th class="two">
       <a class='six' href = 'https://sites.google.com/ocsb.ca/icd2o-ash/home' target = '_blank'>Class Website</a>
-      <p>description here</p>
+      <p>The website for ICD20.</p>
       </th>
     <th>
       <a class='six' href = 'https://classroom.google.com/c/NjU3ODUyMTMwNTIw' target = '_blank'>Google Classroom</a>
@@ -181,6 +191,9 @@
       <p class="two">A software developer program that stores, manages, and shares code.</p>
     </th>
   </tr>
+</table>
+<h2>Coding Skills</h2>
+<table>
   <tr>
     <th>
       <a class='six' href = 'https://www.w3schools.com/' target = '_blank'>W3Schools</a>
@@ -197,7 +210,9 @@
       <p class="two">Lessons that teach proper typing by breaking down the keyboard and gradually building typing skills.</p>
     </th>
   </tr>
- 
+ </table>
+ <h2>Lessons</h2>
+ <table>
   <tr>
     <th class='two'>
       <a class='six' href = 'https://belouga.org/' target = '_blank'>Belouga</a>
